@@ -12,7 +12,7 @@ namespace GrausCF
 
             Console.Write("Digite os graus(°C): ");
             string cValor = Console.ReadLine();
-            double cNumero = Int32.Parse(cValor);
+            double cNumero = Double.Parse(cValor);
 
             double fValor = cNumero*1.8+32;
 
